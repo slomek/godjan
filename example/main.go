@@ -26,6 +26,6 @@ type MyModel struct {
 	Name string
 }
 
-func (m MyModel) ID() string {
+func (m MyModel) DbID() string {
 	return m.Name
 }
